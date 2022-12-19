@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Smoke"></include>
+        </run>
+    </groups>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/deepa/Documents/Barkha new intellij/Preperationpractice" parallel="methods">
+
+
+
+      <parameter name="val1" value="100"></parameter>
+       <parameter name="val2" value="200"></parameter>
+        <classes>
+            <class name="Practicetestng.Paralleltesting"></class>
+           <class name="Practicetestng.Param"></class>
+          <class name="Practicetestng.Demotestngpractice"></class>
+            <class name="Practicetestng.Practice"> </class>
+           <class name="Practicetestng.Priorty"> </class>
+            <class name="Practicetestng.Demo"> </class>
+        </classes>
+
+    </test>
+
+</suite>
